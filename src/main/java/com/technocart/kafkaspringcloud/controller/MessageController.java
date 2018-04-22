@@ -1,15 +1,15 @@
 package com.technocart.kafkaspringcloud.controller;
 
 import com.technocart.kafkaspringcloud.domain.Message;
-import com.technocart.kafkaspringcloud.service.PublishService;
+import com.technocart.kafkaspringcloud.service.PublishServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class MessageController {
-    private final PublishService publishService;
+    private final PublishServiceImpl publishService;
 
-    public MessageController(PublishService publishService) {
+    public MessageController(PublishServiceImpl publishService) {
         this.publishService = publishService;
     }
 
