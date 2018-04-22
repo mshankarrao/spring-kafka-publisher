@@ -1,7 +1,4 @@
-package net.technocart.domain;
-
-import lombok.*;
-
+package com.ford.kafka.domain;
 
 public class Message {
     private long timestamp;

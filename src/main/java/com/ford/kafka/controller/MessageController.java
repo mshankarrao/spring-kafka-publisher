@@ -1,15 +1,15 @@
-package net.technocart.controller;
+package com.ford.kafka.controller;
 
-import com.technocart.domain.Message;
-import com.technocart.service.PublishServiceImpl;
+import com.ford.kafka.domain.Message;
+import com.ford.kafka.service.PublishService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class MessageController {
-    private final PublishServiceImpl publishService;
+    private final PublishService publishService;
 
-    public MessageController(PublishServiceImpl publishService) {
+    public MessageController(PublishService publishService) {
         this.publishService = publishService;
     }
 

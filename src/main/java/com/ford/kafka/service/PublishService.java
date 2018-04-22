@@ -1,9 +1,8 @@
-package net.technocart.service;
+package com.ford.kafka.service;
 
 
-import com.technocart.domain.Message;
-import com.technocart.stream.PublishStream;
-import lombok.extern.slf4j.Slf4j;
+import com.ford.kafka.domain.Message;
+import com.ford.kafka.stream.PublishStream;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHeaders;
 import org.springframework.messaging.support.MessageBuilder;
@@ -11,11 +10,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.MimeTypeUtils;
 
 @Service
-@Slf4j
-public class PublishServiceImpl implements PublishService {
+public class PublishService {
     private final PublishStream messagePublishStream;
 
-    public PublishServiceImpl(PublishStream messagePublishStream) {
+    public PublishService(PublishStream messagePublishStream) {
         this.messagePublishStream = messagePublishStream;
     }
 
