@@ -1,7 +1,7 @@
-package com.technocart.kafkaspringcloud.controller;
+package net.technocart.controller;
 
-import com.technocart.kafkaspringcloud.domain.Message;
-import com.technocart.kafkaspringcloud.service.PublishServiceImpl;
+import com.technocart.domain.Message;
+import com.technocart.service.PublishServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

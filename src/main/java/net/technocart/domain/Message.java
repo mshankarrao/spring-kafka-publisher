@@ -1,4 +1,4 @@
-package com.technocart.kafkaspringcloud.domain;
+package net.technocart.domain;
 
 import lombok.*;
 

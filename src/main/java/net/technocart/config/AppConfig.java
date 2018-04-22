@@ -1,7 +1,7 @@
-package com.technocart.kafkaspringcloud.config;
+package net.technocart.config;
 
 
-import com.technocart.kafkaspringcloud.stream.PublishStream;
+import com.technocart.stream.PublishStream;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 
 @EnableBinding(PublishStream.class)

@@ -1,4 +1,4 @@
-package com.technocart.kafkaspringcloud.stream;
+package net.technocart.stream;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;

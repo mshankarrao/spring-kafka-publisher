@@ -1,8 +1,8 @@
-package com.technocart.kafkaspringcloud.service;
+package net.technocart.service;
 
 
-import com.technocart.kafkaspringcloud.domain.Message;
-import com.technocart.kafkaspringcloud.stream.PublishStream;
+import com.technocart.domain.Message;
+import com.technocart.stream.PublishStream;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHeaders;

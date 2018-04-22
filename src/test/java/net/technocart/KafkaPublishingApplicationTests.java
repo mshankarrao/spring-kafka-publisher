@@ -1,4 +1,4 @@
-package com.technocart.kafkaspringcloud;
+package net.technocart;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
